@@ -27,7 +27,7 @@ body {
 
 /* header */
 .header {
-  background-image: url("/Assets/Hero-bg.png");
+  background-image: url("../assets/hero-bg.png");
   background-image: 100%;
 }
 
