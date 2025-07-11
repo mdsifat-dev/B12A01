@@ -4,17 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Batch 12 Assignment 01</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/assignment.css" />
   </head>
-  <body>
-    <header>
+  <body class="inter-normal raleway-normal">
+    <header class="header">
       <!-- Nav Starts -->
       <nav>
-        <h3>StriPes</h3>
-        <button>Sign Up</button>
+        <h3 class="nav-logo">Stripes</h3>
+        <button class="nav-button">Sign Up</button>
       </nav>
       <!-- Nav Ends -->
+
+      <!-- Header Introduction -->
+      <div class="introduction">
+        <h1 class="introduction-h1">
+          Cool Dark UI Template for Webflow Agencies!
+        </h1>
+        <button class="introduction-button">Stay Focused</button>
+      </div>
     </header>
-    <body></body>
+
+    <body>
+      <!-- Action section -->
+      <section class="action">
+        <div class="action-1">
+          <div class="action-title">See It in Action</div>
+          <div class="action-description">
+            Explore the live preview and imagine your brand in this bold new
+            look.
+          </div>
+          <button class="action-button">Launch Live Preview</button>
+        </div>
+        <img
+          src="/Assets/wc-mini.png"
+          alt="Webflow Conf 2022"
+          class="action-image"
+        />
+      </section>
+
+      <!-- Productive user section -->
+      <div class="preview-div">
+        <section class="preview">
+          <div class="preview-title">Joined Thousands of Productive Users</div>
+          <div class="preview-containers">
+            <div class="preview-container">
+              <div class="preview-user-count">50K</div>
+              <div class="preview-count-title">Active Users</div>
+            </div>
+            <div class="preview-container">
+              <div class="preview-user-count">2M+</div>
+              <div class="preview-count-title">Focus Sessions</div>
+            </div>
+            <div class="preview-container">
+              <div class="preview-user-count">95%</div>
+              <div class="preview-count-title">Satisfaction Rate</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </body>
     <footer></footer>
   </body>
 </html>

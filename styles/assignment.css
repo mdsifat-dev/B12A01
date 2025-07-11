@@ -1,0 +1,198 @@
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+section {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* header */
+.header {
+  background-image: url("/Assets/Hero-bg.png");
+  background-image: 100%;
+}
+
+/* Nav Styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 80px;
+}
+
+.nav-logo {
+  font-family: inter;
+  font-weight: bold;
+  color: #4e47ff;
+  font-size: 22px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.nav-logo:hover {
+  color: #110caa;
+}
+
+.nav-button {
+  background-color: #4e47ff;
+  color: #ffffff;
+  padding: 12px 36px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.nav-button:hover {
+  background-color: #110caa;
+}
+
+/* Header Introduction Styles */
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 0px 150px 0px;
+}
+
+.introduction-h1 {
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  max-width: 800px;
+  line-height: 1.2;
+}
+
+.introduction-button {
+  background-color: #4e47ff;
+  color: white;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.introduction-button:hover {
+  background-color: rgb(80, 80, 80);
+  color: rgb(255, 255, 255);
+}
+
+/* Action Section styles */
+.action {
+  font-family: "Raleway";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: auto;
+  padding: 150px 200px;
+}
+
+.action-1 {
+  max-width: 500px;
+  row-gap: 23px;
+  margin-right: 220px;
+}
+.action-title {
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+}
+
+.action-description {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #252432;
+  padding: 23px 0px;
+}
+
+.action-button {
+  background-color: #4e47ff;
+  color: white;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  transition: background-color 0.3s, padding 0.7s;
+}
+
+.action-button:hover {
+  background-color: #100abb;
+  padding: 14px 38px;
+}
+
+.action-image {
+  border-radius: 48px;
+}
+
+/* Productive user Styles */
+.preview-div {
+  display: flex;
+  justify-content: center;
+  max-height: 306px;
+}
+.preview {
+  min-height: 206px;
+  min-width: 856px;
+  border-radius: 24px;
+  position: middle;
+  background-color: #d0ceff;
+  padding: 50px 80px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.preview-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 38px;
+  color: #252432;
+}
+
+.preview-containers {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter";
+}
+
+.preview-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-user-count {
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.preview-count-title {
+  font-family: "Inter";
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
