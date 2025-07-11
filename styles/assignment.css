@@ -21,6 +21,10 @@ section {
   margin-right: 150px;
 }
 
+body {
+  background-color: #f9f9ff;
+}
+
 /* header */
 .header {
   background-image: url("/Assets/Hero-bg.png");
@@ -195,4 +199,62 @@ nav {
   font-family: "Inter";
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+/* User feedback section  */
+.reviews-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+.reviews-container h2 {
+  color: black;
+  font-size: 50px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.review-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.review-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.review-card h3 {
+  margin: 10px 0;
+}
+.review-card p {
+  margin: 10px 0;
+  font-family: "Body base";
+}
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.reviewer-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.reviewer-name {
+  color: #757575;
+}
+
+.reviewer-info span {
+  color: #999;
+  font-size: 0.9em;
 }
