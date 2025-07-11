@@ -49,7 +49,7 @@ nav {
 }
 
 .nav-logo:hover {
-  color: #110caa;
+  color: #221e9c;
 }
 
 .nav-button {
@@ -265,6 +265,7 @@ nav {
   justify-content: center;
   max-width: auto;
   padding: 20px;
+  margin-bottom: 100px;
 }
 
 .email-title {
@@ -322,4 +323,52 @@ label {
 
 .submit-button:hover {
   background-color: #110caa;
+}
+
+/* Footer Styles   */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.footer-logo {
+  font-family: "Inter";
+  font-weight: bolder;
+  font-size: 100px;
+  color: #4e47ff;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footer-title {
+  width: 530px;
+  height: 48px;
+  text-align: center;
+  color: #8987a1;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  color: #8987a1;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.footer-end {
+  transition: all 0.3s;
+}
+
+.footer-end:hover {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
 }
