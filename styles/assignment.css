@@ -35,7 +35,7 @@ body {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 50px 80px;
 }
 
@@ -43,7 +43,7 @@ nav {
   font-family: inter;
   font-weight: bold;
   color: #4e47ff;
-  font-size: 22px;
+  font-size: 30px;
   cursor: pointer;
   transition: color 0.2s;
 }
@@ -57,7 +57,7 @@ nav {
   color: #ffffff;
   padding: 12px 36px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -93,7 +93,7 @@ nav {
   border: none;
   border-radius: 8px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
   cursor: pointer;
   transition: background-color 0.4s, color 0.4s;
 }
@@ -107,7 +107,7 @@ nav {
 .action {
   font-family: "Raleway";
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width: auto;
   padding: 150px 200px;
@@ -141,12 +141,11 @@ nav {
   font-weight: bold;
   font-size: 22px;
   cursor: pointer;
-  transition: background-color 0.3s, padding 0.7s;
+  transition: background-color 0.3s;
 }
 
 .action-button:hover {
   background-color: #100abb;
-  padding: 14px 38px;
 }
 
 .action-image {
@@ -255,6 +254,72 @@ nav {
 }
 
 .reviewer-info span {
-  color: #999;
-  font-size: 0.9em;
+  color: #b3b3b3;
+  font-size: 13px;
+}
+
+/* Let's Get in touch styles*/
+.email-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: auto;
+  padding: 20px;
+}
+
+.email-title {
+  font-family: "Raleway";
+  font-size: 97px;
+  font-weight: bold;
+  margin: 0 150px;
+  line-height: 100px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  display: block;
+  font-family: "Inter";
+  font-weight: medium;
+  font-size: 18px;
+}
+
+.email-input,
+.name-input {
+  width: 250px;
+  border-radius: 10px;
+  border-color: lightgrey;
+  border-style: solid;
+  font-size: 18px;
+  padding: 14px 32px;
+}
+
+.message-input {
+  height: 100px;
+  resize: none;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 18px;
+  border-color: lightgrey;
+  padding: 10px 10px;
+}
+
+.submit-button {
+  background-color: #4e47ff;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 100px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #110caa;
 }
